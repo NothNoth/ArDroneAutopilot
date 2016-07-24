@@ -1,0 +1,2 @@
+all:
+	g++ testRaw.cpp -o testRaw -I./include/ -L./lib/ -lrevel -lxvidcore
